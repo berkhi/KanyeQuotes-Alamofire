@@ -12,15 +12,15 @@ class APIHandler {
     static let sharedInstance = APIHandler()
     let url = "https://api.kanye.rest"
     
-    func getData(complation: @escaping (Result<KanyeQuote, Error>) -> Void) {
+    func getData(completion: @escaping (Result<KanyeQuote, Error>) -> Void) {
         AF.request(url).responseDecodable(of: KanyeQuote.self) { response in
             switch response.result {
             case .success(let data):
-                // Handle successful response
                 print(data)
+                completion(.success(data))
             case .failure(let error):
-                // Handle error
                 print(error)
+                completion(.failure(error))
             }
         }
     }

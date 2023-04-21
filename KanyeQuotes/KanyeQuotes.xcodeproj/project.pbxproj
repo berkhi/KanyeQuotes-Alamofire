@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AD2AD3487A65ECDDBF650DB1 /* Pods_KanyeQuotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25EA5CFACAFA9F8C2C7229B /* Pods_KanyeQuotes.framework */; };
+		C0999D2A29F29DF7009333A5 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0999D2929F29DF7009333A5 /* Models.swift */; };
 		C0BA7A0729EEE58B00E6D1EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA7A0629EEE58B00E6D1EB /* AppDelegate.swift */; };
 		C0BA7A0929EEE58B00E6D1EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA7A0829EEE58B00E6D1EB /* SceneDelegate.swift */; };
 		C0BA7A0B29EEE58B00E6D1EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA7A0A29EEE58B00E6D1EB /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		1A3558FE0095E00300FBDBCD /* Pods-KanyeQuotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanyeQuotes.release.xcconfig"; path = "Target Support Files/Pods-KanyeQuotes/Pods-KanyeQuotes.release.xcconfig"; sourceTree = "<group>"; };
 		AB451E7F04E0272A7A76AAA0 /* Pods-KanyeQuotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanyeQuotes.debug.xcconfig"; path = "Target Support Files/Pods-KanyeQuotes/Pods-KanyeQuotes.debug.xcconfig"; sourceTree = "<group>"; };
+		C0999D2929F29DF7009333A5 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		C0BA7A0329EEE58B00E6D1EB /* KanyeQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanyeQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0BA7A0629EEE58B00E6D1EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0BA7A0829EEE58B00E6D1EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,11 +79,12 @@
 				C0BA7A0629EEE58B00E6D1EB /* AppDelegate.swift */,
 				C0BA7A0829EEE58B00E6D1EB /* SceneDelegate.swift */,
 				C0BA7A0A29EEE58B00E6D1EB /* ViewController.swift */,
+				C0999D2929F29DF7009333A5 /* Models.swift */,
+				C0BA7A1A29F01E4100E6D1EB /* APIHandler.swift */,
 				C0BA7A0C29EEE58B00E6D1EB /* Main.storyboard */,
 				C0BA7A0F29EEE58D00E6D1EB /* Assets.xcassets */,
 				C0BA7A1129EEE58D00E6D1EB /* LaunchScreen.storyboard */,
 				C0BA7A1429EEE58D00E6D1EB /* Info.plist */,
-				C0BA7A1A29F01E4100E6D1EB /* APIHandler.swift */,
 			);
 			path = KanyeQuotes;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				C0BA7A0729EEE58B00E6D1EB /* AppDelegate.swift in Sources */,
 				C0BA7A0929EEE58B00E6D1EB /* SceneDelegate.swift in Sources */,
 				C0BA7A1B29F01E4100E6D1EB /* APIHandler.swift in Sources */,
+				C0999D2A29F29DF7009333A5 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
